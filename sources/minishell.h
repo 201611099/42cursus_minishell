@@ -6,7 +6,7 @@
 /*   By: hyojlee <hyojlee@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/06 15:39:28 by hyojlee           #+#    #+#             */
-/*   Updated: 2022/05/19 18:13:23 by hyojlee          ###   ########.fr       */
+/*   Updated: 2022/10/24 13:56:53 by hyojlee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,6 +90,7 @@ void		free_enode(void *node);
 */
 void		print_err(char *line);
 void		print_strerr(int err);
+void		print_tree(t_node* root);
 
 /*
 ** replace_utils.c

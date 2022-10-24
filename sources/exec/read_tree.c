@@ -6,7 +6,7 @@
 /*   By: hyojlee <hyojlee@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/27 20:41:29 by hyojlee           #+#    #+#             */
-/*   Updated: 2022/05/19 18:12:35 by hyojlee          ###   ########.fr       */
+/*   Updated: 2022/10/24 13:57:46 by hyojlee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,5 +60,7 @@ void	read_tree(t_node *node)
 		print_strerr(errno);
 	if (!node)
 		return ;
+	print_tree(node);
+	printf("\n\n");
 	execute_code(node);
 }
